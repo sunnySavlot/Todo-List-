@@ -1,0 +1,74 @@
+* {
+    font-family: 'Philosopher', sans-serif;
+    background-color: white;
+    color: #317773;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 30px;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+button {
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 1.5rem;
+}
+button:hover {
+    background-color: rgb(0, 164, 164);
+    color: white;
+}
+
+button:active {
+    background-color: teal;
+    color: white;
+}
+
+input {
+    margin-top: 10px;
+    border-color: teal;
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    height: 3rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+.delete-btn {
+    margin-left: 5rem;
+}
+
+ul {
+    margin-top: 50px;
+}
+
+li {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#EnterButton {
+    margin: 10px;
+}
+
+div {
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer {
+    margin-top:  6rem;
+}
